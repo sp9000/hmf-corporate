@@ -11,10 +11,10 @@ const config: GatsbyConfig = {
     siteTitle: `Hines Media Family`,
     siteTitleAlt: `Tampa Web Marketing Agency | Hines Media Family`,
     siteHeadline: `Tampa Web Marketing Agency | Hines Media Family`,
-    siteUrl: `https://hinesmediafamily.com`,
+    siteUrl: `https://minimal-blog.lekoarts.de`,
     siteDescription: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and line highlighting.`,
     siteImage: `/banner.jpg`,
-    author: `@sp07`,
+    author: `@lekoarts_de`,
   },
   trailingSlash: `never`,
   plugins: [
@@ -24,23 +24,15 @@ const config: GatsbyConfig = {
       options: {
         navigation: [
           {
-            title: `Blog`,
+            title: `Bloog`,
             slug: `/blog`,
           },
           {
-            title: `Our Story`,
-            slug: `/our-story`,
-          },
-          {
-            title: `What We Do`,
-            slug: `/what-we-do`,
-          },
-          {
-            title: `Brands`,
-            slug: `/clients`,
+            title: `About`,
+            slug: `/about`,
           },
         ],
-        /*externalLinks: [
+        externalLinks: [
           {
             name: `Twitter`,
             url: `https://twitter.com/lekoarts_de`,
@@ -49,7 +41,7 @@ const config: GatsbyConfig = {
             name: `Homepage`,
             url: `https://www.lekoarts.de?utm_source=minimal-blog&utm_medium=Starter`,
           },
-        ],*/
+        ],
       },
     },
     {
