@@ -9,10 +9,10 @@ const config: GatsbyConfig = {
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-minimal-blog/gatsby-config.js
     siteTitle: `Hines Media Family`,
-    siteTitleAlt: `Tampa Web Marketing Agency | Hines Media Family`,
-    siteHeadline: `Tampa Web Marketing Agency | Hines Media Family`,
+    siteTitleAlt: `Digital Marketing Agency based in Tampa, Florida | Hines Media Family`,
+    siteHeadline: `Digital Marketing Agency based in Tampa, Florida | Hines Media Family`,
     siteUrl: `https://hinesmediafamily.com`,
-    siteDescription: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and line highlighting.`,
+    siteDescription: `Tampa based, digital agency with a focus on Social Media advertising and marketing. Hines Media Family can help your small business amplify reach and boost sales.`,
     siteImage: `/banner.jpg`,
     author: `@sp07`,
   },
@@ -24,10 +24,6 @@ const config: GatsbyConfig = {
       options: {
         navigation: [
           {
-            title: `Blog`,
-            slug: `/blog`,
-          },
-          {
             title: `Our Story`,
             slug: `/our-story`,
           },
@@ -36,7 +32,7 @@ const config: GatsbyConfig = {
             slug: `/what-we-do`,
           },
           {
-            title: `Brands`,
+            title: `Who We Work For`,
             slug: `/clients`,
           },
         ],
