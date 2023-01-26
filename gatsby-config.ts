@@ -32,7 +32,7 @@ const config: GatsbyConfig = {
             slug: `/what-we-do`,
           },
           {
-            title: `Who We Work For`,
+            title: `Our Work`,
             slug: `/clients`,
           },
         ],
